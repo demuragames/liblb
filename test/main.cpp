@@ -3,7 +3,7 @@
 
 int main(int argc, char *argv[])
 {
-    Leaderboard lb("http://localhost:8080", "vasia");
+    Leaderboard lb("http://localhost:8080", "fasia");
     lb.reportScore(140);
     for (auto player: lb.top())
     {
